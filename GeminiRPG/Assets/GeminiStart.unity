@@ -370,7 +370,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 374139898}
   m_Father: {fileID: 0}
 --- !u!114 &256085020
 MonoBehaviour:
@@ -697,15 +698,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 374139897}
   m_LocalRotation: {x: -.71862638, y: 0, z: 0, w: .695396423}
-  m_LocalPosition: {x: 0, y: .142720118, z: -2.04298496}
-  m_LocalScale: {x: 1.38550615, y: 1.38550615, z: 1.11155224}
+  m_LocalPosition: {x: 0, y: .142720118, z: 7.95701504}
+  m_LocalScale: {x: 1.38550615, y: 1.38550627, z: 1.11155236}
   m_Children:
   - {fileID: 1674730233}
   - {fileID: 1026133909}
   - {fileID: 309738554}
   - {fileID: 799758356}
   - {fileID: 1576851356}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 256085019}
 --- !u!23 &374139899
 Renderer:
   m_ObjectHideFlags: 0
@@ -759,6 +760,7 @@ GameObject:
   - 23: {fileID: 456221145}
   - 114: {fileID: 456221148}
   - 61: {fileID: 456221144}
+  - 114: {fileID: 456221143}
   m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
@@ -766,6 +768,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &456221143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456221142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 046846e34b6d72b46b6e57cbc496d04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  ID: 1
+  active: 1
+  level: 0
+  experience: 0
+  HPMAX: 0
+  APMAX: 0
+  currentHP: 0
+  currentAP: 0
+  Strength: 0
+  Intellect: 0
+  Armor: 0
+  Speed: 0
+  StrengthGrowth: 0
+  IntellectGrowth: 0
+  ArmorGrowth: 0
+  SpeedGrowth: 0
+  Quest: 0
+  MedItems: 
+  Equipment: 
 --- !u!61 &456221144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2514,6 +2547,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1281362509}
   - 114: {fileID: 1281362508}
+  - 114: {fileID: 1281362511}
+  - 114: {fileID: 1281362510}
   m_Layer: 0
   m_Name: MasterController
   m_TagString: Untagged
@@ -2545,6 +2580,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1281362510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281362507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d981e06e4b34341ac6eee6e4235374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1281362511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281362507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a506d265b3e26f44c93438748c539010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294252404
 GameObject:
   m_ObjectHideFlags: 0

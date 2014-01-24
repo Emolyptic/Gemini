@@ -24,7 +24,7 @@ public class PauseTracker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.P))
+		if(Input.GetKeyDown(KeyCode.P) && active != true && playerMovementScript.dialogSequence == false)
 		{
 			currentselected = 0;//selector starts on Resume
 			playerMovementScript.StopKeyPressesonMainScreen = true; //Stop movement on game
