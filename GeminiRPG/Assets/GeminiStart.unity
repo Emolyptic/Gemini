@@ -792,6 +792,8 @@ MonoBehaviour:
   Intellect: 0
   Armor: 0
   Speed: 0
+  HPGrowth: 0
+  APGrowth: 0
   StrengthGrowth: 0
   IntellectGrowth: 0
   ArmorGrowth: 0
@@ -2549,6 +2551,8 @@ GameObject:
   - 114: {fileID: 1281362508}
   - 114: {fileID: 1281362511}
   - 114: {fileID: 1281362510}
+  - 114: {fileID: 1281362512}
+  - 114: {fileID: 1281362513}
   m_Layer: 0
   m_Name: MasterController
   m_TagString: Untagged
@@ -2591,6 +2595,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d981e06e4b34341ac6eee6e4235374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  healer: {fileID: 0}
+  rangedmg: {fileID: 0}
+  meleedmg: {fileID: 0}
 --- !u!114 &1281362511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2600,6 +2608,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a506d265b3e26f44c93438748c539010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1281362512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281362507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b267e431efe1e4ba9e9c443bcc97f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1281362513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281362507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b77365ba56e6f448eec161a0fb9b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1294252404

@@ -1,14 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ItemDictionary.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyDictionary.cs">
     <Files>
-      <File FileName="Assets\Scripts\TeamController.cs" Line="22" Column="10" />
-      <File FileName="Assets\Scripts\PauseTracker.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="27" Column="28" />
-      <File FileName="Assets\Scripts\ItemDictionary.cs" Line="33" Column="14" />
-      <File FileName="Assets\Scripts\Item.cs" Line="10" Column="17" />
-      <File FileName="Assets\Scripts\PlayerInfo.cs" Line="10" Column="21" />
-      <File FileName="Assets\Scripts\TeamController.cs" Line="92" Column="32" />
+      <File FileName="Assets\Scripts\BattleManager.cs" Line="16" Column="39" />
+      <File FileName="Assets\Scripts\ItemDictionary.cs" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\EnemyDictionary.cs" Line="18" Column="23" />
+      <File FileName="Assets\Scripts\Item.cs" Line="14" Column="2" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="5" Column="9" />
+      <File FileName="Assets\Scripts\PlayerInfo.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
